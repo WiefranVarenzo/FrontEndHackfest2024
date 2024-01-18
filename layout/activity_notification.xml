@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity"
+    android:background="#FFFFFF">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:elevation="100dp">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="1dp">
+
+            <View
+                android:layout_width="match_parent"
+                android:visibility="visible"
+                android:layout_height="1.5dp"
+                android:layout_marginTop="45dp"
+                android:background="#808080"/>
+
+            <TextView
+                android:id="@+id/back_arrow"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="11dp"
+                android:clickable="true"
+                android:drawableLeft="@drawable/baseline_arrow_back_ios_24"
+                tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Notifications"
+                android:textAlignment="center"
+                android:textColor="#003B2B"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:font="@font/poppinsextrabold"/>
+        </androidx.cardview.widget.CardView>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="60dp">
+        <ImageView
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginStart="17dp"
+            android:background="@drawable/newfoll"/>
+        <TextView
+            android:layout_width="180dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="110dp"
+            android:text="New Followers"
+            android:textSize="24dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginStart="110dp"
+            android:text="Zaki Alfadilah started following you..."
+            android:textSize="16dp"
+            android:textStyle="normal"/>
+        <TextView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="22dp"
+            android:layout_marginStart="370dp"
+            android:background="@drawable/baseline_navigate_next_24"/>
+
+        <View
+            android:layout_width="300dp"
+            android:visibility="visible"
+            android:layout_height="1.5dp"
+            android:layout_marginTop="70dp"
+            android:layout_marginStart="110dp"
+            android:background="#808080"/>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="155dp">
+        <ImageView
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginStart="17dp"
+            android:background="@drawable/notif_act"/>
+        <TextView
+            android:layout_width="180dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="110dp"
+            android:text="Activities"
+            android:textSize="24dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginStart="110dp"
+            android:text="Someone take a mission..."
+            android:textSize="16dp"
+            android:textStyle="normal"/>
+        <TextView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="22dp"
+            android:layout_marginStart="370dp"
+            android:background="@drawable/baseline_navigate_next_24"/>
+
+        <View
+            android:layout_width="300dp"
+            android:visibility="visible"
+            android:layout_height="1.5dp"
+            android:layout_marginTop="70dp"
+            android:layout_marginStart="110dp"
+            android:background="#808080"/>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="250dp">
+        <ImageView
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginStart="17dp"
+            android:background="@drawable/mission_act"/>
+        <TextView
+            android:layout_width="180dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="110dp"
+            android:text="Missions"
+            android:textSize="24dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginStart="110dp"
+            android:text="Cahaya Give a new mission..."
+            android:textSize="16dp"
+            android:textStyle="normal"/>
+        <TextView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="22dp"
+            android:layout_marginStart="370dp"
+            android:background="@drawable/baseline_navigate_next_24"/>
+
+        <View
+            android:layout_width="300dp"
+            android:visibility="visible"
+            android:layout_height="1.5dp"
+            android:layout_marginTop="70dp"
+            android:layout_marginStart="110dp"
+            android:background="#808080"/>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="345dp">
+        <ImageView
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginStart="17dp"
+            android:background="@drawable/person1"/>
+        <TextView
+            android:layout_width="180dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="110dp"
+            android:text="Ahmad Dhani"
+            android:textSize="24dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginStart="110dp"
+            android:text="Active 29 minutes ago"
+            android:textSize="16dp"
+            android:textStyle="normal"/>
+        <TextView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="22dp"
+            android:layout_marginStart="370dp"
+            android:background="@drawable/baseline_navigate_next_24"/>
+        <View
+            android:layout_width="300dp"
+            android:visibility="visible"
+            android:layout_height="1.5dp"
+            android:layout_marginTop="70dp"
+            android:layout_marginStart="110dp"
+            android:background="#808080"/>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="440dp">
+        <ImageView
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginStart="17dp"
+            android:background="@drawable/person2"/>
+        <TextView
+            android:layout_width="180dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="110dp"
+            android:text="Vanessa Grcia"
+            android:textSize="24dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginStart="110dp"
+            android:text="Active 4 hours ago"
+            android:textSize="16dp"
+            android:textStyle="normal"/>
+        <TextView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="22dp"
+            android:layout_marginStart="370dp"
+            android:background="@drawable/baseline_navigate_next_24"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginTop="520dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Top Quest Giver"
+            android:textStyle="bold"
+            android:textSize="23dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginStart="18dp"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="560dp">
+        <ImageView
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginStart="17dp"
+            android:background="@drawable/person3"/>
+        <TextView
+            android:layout_width="180dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="110dp"
+            android:text="Mr. Sutejo"
+            android:textSize="24dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="45dp"
+            android:layout_marginStart="110dp"
+            android:text="Give 28 Missions"
+            android:textSize="16dp"
+            android:textStyle="normal"/>
+
+        <Button
+            android:layout_width="110dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="290dp"
+            android:layout_marginTop="18dp"
+            android:backgroundTint="#007F5C"
+            android:text="Follow" />
+    </RelativeLayout>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/NavigationView"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:elevation="10dp"
+        android:layout_marginTop="700dp"
+        android:orientation="horizontal"
+        app:cardBackgroundColor="@color/white"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <View
+            android:id="@+id/HomePage"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/home"
+            android:backgroundTint="@color/black"
+            android:clickable="true"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        <View
+            android:id="@+id/ExplorePage"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginStart="95dp"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/social_btn"
+            android:clickable="true"
+            tools:ignore="SpeakableTextPresentCheck" />
+        <View
+            android:layout_width="85dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="172dp"
+            android:layout_marginTop="1.5dp"
+            android:background="@drawable/rounded_corner_map"/>
+
+        <View
+            android:id="@+id/MapPage"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="191dp"
+            android:layout_marginTop="19dp"
+            android:background="@drawable/maps_ic"
+            android:clickable="true"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <View
+            android:id="@+id/MessagePage"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginStart="275dp"
+            android:layout_marginTop="11dp"
+            android:background="@drawable/chat_btn"
+            android:clickable="true"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <View
+            android:id="@+id/ProfilPage"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginStart="335dp"
+            android:layout_marginTop="11dp"
+            android:background="@drawable/profil_btn"
+            android:clickable="true"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

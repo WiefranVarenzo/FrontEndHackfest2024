@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".ExploreActivity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_gravity = "center_horizontal">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="45dp"
+
+            />
+
+        <TextView
+            android:id="@+id/BackMainPage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="11dp"
+            android:clickable="true"
+            android:drawableLeft="@drawable/baseline_arrow_back_ios_24"
+            tools:ignore="SpeakableTextPresentCheck">
+
+        </TextView>
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:font="@font/poppinsextrabold"
+            android:text="Social"
+            android:textAlignment="center"
+            android:textColor="#003B2B"
+            android:textSize="20sp"
+            android:textStyle="bold">
+
+        </TextView>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="700dp"
+            android:layout_marginTop="42dp"
+            android:background="#FFFFFF"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-300dp"
+            android:layout_marginTop="-115dp"
+            android:layout_marginBottom="-6dp"
+            android:drawableLeft="@drawable/pp_zaki"
+            android:scaleX="0.1"
+            android:scaleY="0.1"></TextView>
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-810dp"
+            android:layout_marginTop="-200dp"
+
+            android:layout_marginRight="-955dp"
+            android:drawableStart="@drawable/ciliwung"
+            android:scaleX="0.26"
+            android:scaleY="0.26">
+
+        </TextView>
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="75dp"
+            android:layout_marginLeft="-165dp"
+            android:font="@font/poppinsextrabold"
+            android:text="Zaki Alfadilah"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold">
+
+        </TextView>
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="120dp"
+            android:layout_marginLeft="17dp"
+            android:font="@font/poppinslight"
+            android:text="Potret Kali Ciliwung setelah dibersihkan oleh TIM neTure. Bersih itu indah, membuat kehidupan lebih berwarna. Ini juga menyangkut masa depan, karena anak dan cucu kitalah yang akan merasakannya juga."
+
+            android:textColor="@color/black"
+            android:scaleX="0.95"
+            android:scaleY="0.95"
+            android:textStyle="normal"
+            android:gravity="left"
+            >
+
+        </TextView>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="450dp"
+            android:background="#E3E3E3"
+            />
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleX="0.07"
+            android:scaleY="0.07"
+            android:layout_marginLeft="-230dp"
+            android:layout_marginRight="90dp"
+            android:layout_marginTop="230dp"
+
+
+            android:drawableStart="@drawable/hati">
+        </TextView>
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleX="0.07"
+            android:scaleY="0.07"
+            android:layout_marginLeft="-180dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="240dp"
+
+
+            android:drawableStart="@drawable/komen">
+        </TextView>
+
+
+        <ImageView
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerInside"
+            android:layout_marginTop="434dp"
+            android:layout_marginLeft="200dp"
+            android:scaleX="0.7"
+            android:scaleY="1"
+            android:src="@drawable/rectangle"
+            >
+        </ImageView>
+        <ImageView
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerInside"
+            android:layout_marginTop="445dp"
+            android:layout_marginLeft="200dp"
+            android:scaleX="0.6"
+            android:scaleY="0.6"
+            android:src="@drawable/support"
+
+            >
+        </ImageView>
+
+
+
+        <!--POSTINGAN TEPEN-->
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleX="0.1"
+            android:scaleY="0.1"
+
+            android:layout_marginLeft="-300dp"
+            android:layout_marginTop="280dp"
+            android:drawableLeft="@drawable/tepen">
+        </TextView>
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="520dp"
+            android:layout_marginLeft="-200dp"
+            android:font="@font/poppinsextrabold"
+            android:text="Stephen"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold">
+
+        </TextView>
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="570dp"
+            android:layout_marginLeft="17dp"
+            android:font="@font/poppinslight"
+            android:text="Kalideres itu indah, tapi lebih indah lagi jika bersih. Aplikasi neTure telah menyediakan tempat untuk orang-orang yang ingin membersihkan lingkungan. Yuk kita jaga lingkungan bersama."
+
+            android:textColor="@color/black"
+            android:scaleX="0.95"
+            android:scaleY="0.95"
+            android:textStyle="normal"
+            android:gravity="left"
+            >
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:drawableStart="@drawable/kalideres"
+            android:scaleX="0.3"
+            android:scaleY="0.3"
+            android:layout_marginTop="368dp"
+            android:layout_marginLeft="-500dp"
+            android:layout_marginRight="-500dp"
+
+            >
+
+        </TextView>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="900dp"
+            android:background="#E3E3E3"
+            />
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleX="0.07"
+            android:scaleY="0.07"
+            android:layout_marginLeft="-230dp"
+            android:layout_marginRight="90dp"
+            android:layout_marginTop="680dp"
+
+
+            android:drawableStart="@drawable/hati">
+        </TextView>
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleX="0.07"
+            android:scaleY="0.07"
+            android:layout_marginLeft="-180dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="691dp"
+
+
+            android:drawableStart="@drawable/komen">
+        </TextView>
+        <ImageView
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerInside"
+            android:layout_marginTop="883dp"
+            android:layout_marginLeft="200dp"
+            android:scaleX="0.7"
+            android:scaleY="1"
+            android:src="@drawable/rectangle"
+            >
+        </ImageView>
+        <ImageView
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerInside"
+            android:layout_marginTop="895dp"
+            android:layout_marginLeft="200dp"
+            android:scaleX="0.6"
+            android:scaleY="0.6"
+            android:src="@drawable/support"
+
+            >
+        </ImageView>
+
+
+
+        <View
+            android:layout_width="match_parent"
+            android:visibility="visible"
+            android:layout_height="1.5dp"
+            android:layout_marginTop="1dp"
+            android:background="#808080"/>
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="15dp"
+            android:backgroundTint="#ffffff"
+            android:text="b">
+        </Button>
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="97dp"
+            android:layout_marginTop="15dp"
+            android:backgroundTint="#ffffff"
+            android:text="b">
+        </Button>
+
+    </RelativeLayout>
+
+</ScrollView>
+
+
+
